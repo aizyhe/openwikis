@@ -23,6 +23,8 @@
 
 邮箱：aizyhe@126.com
 
+GitHub：https://github.com/aizyhe/openwikis
+
 版本：v1.0.0
 
 日期：2026-06-25
