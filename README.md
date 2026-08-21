@@ -1,6 +1,6 @@
 <div align="center">
 
-# OpenWikis · 开源技术权威指南
+# OpenWikis 开源权威指南：云计算权威指南、AI Infra 权威指南、具身智能权威指南
 
 **以跨厂商对比视角，系统构建云计算、AI Infra 与具身智能等知识体系的权威开源指南。**
 
