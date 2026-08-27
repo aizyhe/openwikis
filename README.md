@@ -6,7 +6,8 @@
 
 **免费开源的系统技术书籍仓库，覆盖大模型算法（Transformer、MoE、RLHF）、AI 基础设施（GPU 微架构、分布式训练、推理优化、模型量化）、云计算（虚拟化、Kubernetes、云原生、FinOps）与具身智能（SLAM、强化学习、VLA）全栈知识体系，PDF 即下即用。**
 
-[![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-important)](LICENSE)
+[![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/aizyhe/openwikis?style=social)](https://github.com/aizyhe/openwikis)
 ![AI 算法](https://img.shields.io/badge/AI_算法-18章-EF4444)
 ![AI Infra](https://img.shields.io/badge/AI_Infra-18章-7C3AED)
 ![云计算](https://img.shields.io/badge/云计算-18章-2563EB)
@@ -142,7 +143,7 @@ OpenWikis 是一个免费、开源的技术书籍仓库，收录 **《AI 算法�
 
 ## 📄 许可
 
-**保留所有权利。** 欢迎学习与引用；转载或商用请提前联系作者。详见 [LICENSE](LICENSE)。
+采用 **CC BY-NC 4.0（署名-非商业性使用）** 许可。您可以共享并基于本内容创作衍生作品，但须署名、不得商用。详见 [LICENSE](LICENSE)。
 
 ---
 

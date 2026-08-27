@@ -6,7 +6,8 @@
 
 **Ein kostenloses Open-Source-System von Fachbüchern, das Foundation-Modelle (Transformer, MoE, RLHF), KI-Infrastruktur (GPU-Mikroarchitektur, verteiltes Training, Inferenzoptimierung, Modellquantisierung), Cloud Computing (Virtualisierung, Kubernetes, Cloud-nativ, FinOps) und verkörperte Intelligenz (SLAM, Reinforcement Learning, VLA) abdeckt — mit PDFs zum sofortigen Herunterladen.**
 
-[![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-important)](LICENSE)
+[![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/aizyhe/openwikis?style=social)](https://github.com/aizyhe/openwikis)
 ![AI Algorithm](https://img.shields.io/badge/AI_Algorithm-18ch-EF4444)
 ![AI Infra](https://img.shields.io/badge/AI_Infra-18ch-7C3AED)
 ![Cloud Computing](https://img.shields.io/badge/Cloud_Computing-18ch-2563EB)
@@ -142,7 +143,7 @@ Wir freuen uns über Korrekturen und Verbesserungsvorschläge über [Issues](htt
 
 ## 📄 Lizenz
 
-**Alle Rechte vorbehalten.** Lernen und Zitieren sind willkommen; bitte kontaktieren Sie den Autor für die Neuveröffentlichung oder kommerzielle Nutzung. Details finden Sie in [LICENSE](LICENSE).
+Lizenziert unter **CC BY-NC 4.0 (Namensnennung-Nicht kommerziell)**. Sie dürfen dieses Werk teilen und abgeleitete Werke erstellen, müssen jedoch den Urheber nennen und dürfen es nicht kommerziell nutzen. Details finden Sie in [LICENSE](LICENSE).
 
 ---
 

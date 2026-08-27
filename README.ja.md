@@ -6,7 +6,8 @@
 
 **無料・オープンソースの技術書リポジトリ。基盤モデル（Transformer、MoE、RLHF）、AIインフラ（GPUマイクロアーキテクチャ、分散学習、推論最適化、モデル量子化）、クラウドコンピューティング（仮想化、Kubernetes、クラウドネイティブ、FinOps）、エンボディドインテリジェンス（SLAM、強化学習、VLA）の全スタック知識体系を網羅し、PDFをすぐにダウンロードできます。**
 
-[![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-important)](LICENSE)
+[![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/aizyhe/openwikis?style=social)](https://github.com/aizyhe/openwikis)
 ![AI Algorithm](https://img.shields.io/badge/AI_Algorithm-18ch-EF4444)
 ![AI Infra](https://img.shields.io/badge/AI_Infra-18ch-7C3AED)
 ![Cloud Computing](https://img.shields.io/badge/Cloud_Computing-18ch-2563EB)
@@ -142,7 +143,7 @@ GPUマイクロアーキテクチャから万GPUクラスターまでのAIイン
 
 ## 📄 ライセンス
 
-**全著作権所有。** 学習・引用は歓迎します。転載や商用利用は事前に著者へご連絡ください。詳細は [LICENSE](LICENSE) をご覧ください。
+**CC BY-NC 4.0（表示-非営利）** ライセンスを採用しています。本内容の共有と改変に基づく二次創作は自由ですが、表示が必要で、営利目的での利用はできません。詳細は [LICENSE](LICENSE) をご覧ください。
 
 ---
 

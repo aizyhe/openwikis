@@ -6,7 +6,8 @@
 
 **무료·오픈소스 기술서 저장소. 파운데이션 모델(Transformer, MoE, RLHF), AI 인프라(GPU 마이크로아키텍처, 분산 학습, 추론 최적화, 모델 양자화), 클라우드 컴퓨팅(가상화, Kubernetes, 클라우드 네이티브, FinOps), 엠보디드 인텔리전스(SLAM, 강화학습, VLA) 전 스택 지식 체계를 아우르며 PDF를 바로 다운로드할 수 있습니다.**
 
-[![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-important)](LICENSE)
+[![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/aizyhe/openwikis?style=social)](https://github.com/aizyhe/openwikis)
 ![AI Algorithm](https://img.shields.io/badge/AI_Algorithm-18ch-EF4444)
 ![AI Infra](https://img.shields.io/badge/AI_Infra-18ch-7C3AED)
 ![Cloud Computing](https://img.shields.io/badge/Cloud_Computing-18ch-2563EB)
@@ -142,7 +143,7 @@ GPU 마이크로아키텍처에서 만 GPU 클러스터까지 AI 인프라 전 �
 
 ## 📄 라이선스
 
-**모든 권리 보유.** 학습과 인용은 환영합니다. 전재나 상업적 이용은 사전에 저자에게 연락해 주세요. 자세한 내용은 [LICENSE](LICENSE)를 참조하세요.
+**CC BY-NC 4.0(저작자표시-비영리)** 라이선스를 적용합니다. 본 콘텐츠의 공유와 변경에 따른 2차 저작물 창작은 자유롭지만, 저작자 표시가 필요하며 영리적 사용은 허용되지 않습니다. 자세한 내용은 [LICENSE](LICENSE)를 참조하세요.
 
 ---
 

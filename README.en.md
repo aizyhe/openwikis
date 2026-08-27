@@ -6,7 +6,8 @@
 
 **A free, open-source system of technical books covering foundation models (Transformer, MoE, RLHF), AI infrastructure (GPU microarchitecture, distributed training, inference optimization, model quantization), cloud computing (virtualization, Kubernetes, cloud-native, FinOps) and embodied intelligence (SLAM, reinforcement learning, VLA) — with ready-to-download PDFs.**
 
-[![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-important)](LICENSE)
+[![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/aizyhe/openwikis?style=social)](https://github.com/aizyhe/openwikis)
 ![AI Algorithm](https://img.shields.io/badge/AI_Algorithm-18ch-EF4444)
 ![AI Infra](https://img.shields.io/badge/AI_Infra-18ch-7C3AED)
 ![Cloud Computing](https://img.shields.io/badge/Cloud_Computing-18ch-2563EB)
@@ -142,7 +143,7 @@ Welcome to submit corrections and improvement suggestions via [Issues](https://g
 
 ## 📄 License
 
-**All rights reserved.** Learning and citation are welcome; please contact the author for republication or commercial use.
+Licensed under **CC BY-NC 4.0 (Attribution-NonCommercial)**. You may share this content and create derivative works, but must give credit and may not use it commercially. See [LICENSE](LICENSE) for details.
 
 ---
 
