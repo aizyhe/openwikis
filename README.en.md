@@ -2,11 +2,12 @@
 
 # OpenWikis · Open-Source Authoritative Technical Guides
 
-**An authoritative open-source guide system covering Cloud Computing, AI Infrastructure, Embodied Intelligence and more, with a cross-vendor comparison perspective.**
+**An authoritative open-source guide system covering AI Algorithm, AI Infrastructure, Cloud Computing, Embodied Intelligence and more, with a cross-vendor comparison perspective.**
 
 [![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-important)](LICENSE)
-![Cloud Computing](https://img.shields.io/badge/Cloud_Computing-18ch-2563EB)
+![AI Algorithm](https://img.shields.io/badge/AI_Algorithm-18ch-EF4444)
 ![AI Infra](https://img.shields.io/badge/AI_Infra-18ch-7C3AED)
+![Cloud Computing](https://img.shields.io/badge/Cloud_Computing-18ch-2563EB)
 ![Embodied AI](https://img.shields.io/badge/Embodied_AI-18ch-16A34A)
 
 **Language**: [English](README.en.md) · [中文](README.md)
@@ -15,7 +16,7 @@
 
 ---
 
-This repository hosts a series of "authoritative guide"-level technical books, currently including the **Cloud Computing Authoritative Guide**, **AI Infrastructure Authoritative Guide**, and **Embodied Intelligence Authoritative Guide**. Written from a cross-vendor comparison perspective, the series covers virtualization, cloud-native and Kubernetes, GPU compute and distributed training, inference optimization, and embodied intelligence & robotics — spanning from cloud infrastructure and AI compute to the physical world. Each book stands alone and can be read independently or together.
+This repository hosts a series of "authoritative guide"-level technical books, currently including the **AI Algorithm Authoritative Guide**, **AI Infrastructure Authoritative Guide**, **Cloud Computing Authoritative Guide**, and **Embodied Intelligence Authoritative Guide**. Written from a cross-vendor comparison perspective, the series covers AI algorithms & foundation models, GPU compute and distributed training, inference optimization, virtualization, cloud-native and Kubernetes, and embodied intelligence & robotics — spanning from algorithms and cloud to the physical world. Each book stands alone and can be read independently or together.
 
 ---
 
@@ -23,21 +24,21 @@ This repository hosts a series of "authoritative guide"-level technical books, c
 
 | Book | TOC | Content | PDF | Chapters |
 | --- | --- | --- | --- | --- |
+| **AI Algorithm Authoritative Guide** | [TOC.md](algo/TOC.md) | [Chapter index](algo/AI算法权威指南.md) | [📖 Download](algo/AI算法权威指南.pdf) | 18 ch. + 4 appendices |
+| **AI Infrastructure Authoritative Guide** | [TOC.md](infra/TOC.md) | [Chapter index](infra/AI%20Infra权威指南.md) | [📖 Download](infra/AI%20Infra权威指南.pdf) | 18 ch. + 4 appendices |
 | **Cloud Computing Authoritative Guide** | [TOC.md](cloud/TOC.md) | [Chapter index](cloud/云计算权威指南.md) | [📖 Download](cloud/云计算权威指南.pdf) | 18 ch. + 4 appendices |
-| **AI Infrastructure Authoritative Guide** | [TOC.md](infra/TOC.md) | [Chapter index](infra/AI%20Infra权威指南.md) | [📖 Download](infra/AI%20Infra权威指南.pdf) | 18 ch. + 3 appendices |
 | **Embodied Intelligence Authoritative Guide** | [TOC.md](embodied/TOC.md) | [Chapter index](embodied/具身智能权威指南.md) | [📖 Download](embodied/具身智能权威指南.pdf) | 18 ch. + 4 appendices |
 
 ---
 
-## ☁️ Cloud Computing Authoritative Guide
+## 🧠 AI Algorithm Authoritative Guide
 
-Full-stack cloud computing knowledge from virtualization to multi-cloud strategy. Anchored on real products from AWS, Azure, GCP, Alibaba Cloud, Tencent Cloud, and Huawei Cloud, examining architectural principles and design trade-offs.
+An authoritative guide from the Transformer architecture to foundation models, agent systems, and intelligent systems. Starting from Transformer, it balances theoretical derivation and engineering practice, tracking the latest 2026 open-source architecture cases.
 
-- **Foundation (ch. 1-4)**: cloud computing definitions & deployment models, virtualization (VM & container, KVM/QEMU), service models (IaaS/PaaS/Serverless/CaaS), cloud-native design (12-Factor, immutable infrastructure, declarative config)
-- **Implementation (ch. 5-13)**: compute services (instance families, auto-scaling, spot instances, bare metal), cloud storage (distributed block storage, object storage, file storage, parallel file systems), cloud networking (VPC, SDN, load balancing, CDN, DNS), containers (Namespace/Cgroups, runtimes, CNI/CSI), Kubernetes (scheduler, Service model, managed K8s comparison), service mesh & microservices, cloud databases (distributed architecture, consistency), messaging & event-driven, big data & AI platforms
-- **Governance & operations (ch. 14-18)**: cloud security (shared responsibility, IAM, compliance), observability (logs/metrics/tracing), DevOps & platform engineering, FinOps cost governance, multi-cloud architecture & migration
-
-**Audience**: cloud architects, backend engineers, SRE, technical managers.
+- **Architecture foundations (ch. 1-4)**: Transformer principles & data flow, tokenization & positional encodings (RoPE, ALiBi) for text/image/speech, core components (FFN, normalization), autoregressive generation & decoding strategies
+- **Training & scaling (ch. 5-9)**: training & optimization, pretraining & data (synthetic data, scaling laws), post-training alignment (SFT/RLHF/DPO), modern architectures (MoE, hybrid & linear attention), frontier model cases (DeepSeek-V4, Kimi K3, Qwen 3.8 Max, GLM 5.3)
+- **Efficient inference & generation (ch. 10-14)**: long context & KV Cache, speculative decoding, reinforcement learning principles, reasoning augmentation & chain-of-thought, generative models (diffusion LMs), multimodality (VLM/VLA)
+- **Intelligent systems & engineering (ch. 15-18)**: agent systems & cognitive architectures, world models, safety & evaluation, FlashAttention's GPU-level efficient implementation
 
 ---
 
@@ -51,7 +52,16 @@ End-to-end AI infrastructure from GPU microarchitecture to 10K-GPU clusters. Ref
 - **Platforms & framework optimization (ch. 13-16)**: AI cluster topologies & scheduling (SLURM, K8s GPU scheduling), cloud-native MLOps, ML compilers (TorchDynamo, JAX/XLA, TensorRT), performance engineering & cost optimization
 - **Design & practice (ch. 17-18)**: AI Infra theoretical calculation handbook (FLOPs, memory planning, communication bandwidth, cost estimation), large-scale AI cluster construction
 
-**Audience**: AI Infra engineers, systems architects, distributed systems practitioners, LLM algorithm engineers.
+---
+
+## ☁️ Cloud Computing Authoritative Guide
+
+Full-stack cloud computing knowledge from virtualization to multi-cloud strategy. Anchored on real products from AWS, Azure, GCP, Alibaba Cloud, Tencent Cloud, and Huawei Cloud, examining architectural principles and design trade-offs.
+
+- **Foundation (ch. 1-3)**: cloud definitions & economics, virtualization (CPU/memory/I/O, KVM & QEMU), service models (IaaS/PaaS/Serverless/CaaS) & selection framework
+- **Resource services (ch. 4-7)**: compute services (instance families, auto-scaling, spot instances, bare metal), cloud storage (block/object/file, consistency design, backup & DR), cloud networking (VPC, load balancing, CDN, DNS), containers (Namespace/Cgroups, runtimes, CNI/CSI, image distribution)
+- **Platforms & data (ch. 8-13)**: cloud-native design patterns, Kubernetes orchestration, service mesh & microservices, cloud databases, messaging & event-driven, big data & AI
+- **Governance & operations (ch. 14-18)**: cloud security & compliance, observability, DevOps & platform engineering, FinOps cost governance, multi-cloud architecture & migration
 
 ---
 
@@ -65,8 +75,6 @@ An authoritative reference from rigid-body dynamics to VLA foundation models and
 - **Embodied foundation models (ch. 11-14)**: vision-language models (VLM), vision-language-action models (VLA), embodied data engines, simulation & Sim-to-Real transfer
 - **Systems & deployment (ch. 15-17)**: embodied training infrastructure, deployment & edge inference, safety, alignment & evaluation
 - **Industry & outlook (ch. 18)**: industry landscape, humanoid robots, commercialization paths & open problems
-
-**Audience**: robotics/autonomous-driving/AI practitioners, engineers & researchers new to embodied intelligence, product managers & investors, faculty & students.
 
 ---
 
@@ -84,8 +92,9 @@ An authoritative reference from rigid-body dynamics to VLA foundation models and
 
 | Audience | Recommended Path |
 | --- | --- |
-| Cloud architects / SRE / backend engineers | Cloud Computing Guide foundation (ch. 1-4) → implementation layer |
+| AI algorithm engineers / LLM practitioners | AI Algorithm Guide: architecture foundations → training & scaling → efficient inference |
 | AI Infra engineers / distributed systems practitioners | AI Infra Guide GPU microarchitecture (ch. 2) → distributed training |
+| Cloud architects / SRE / backend engineers | Cloud Computing Guide foundation (ch. 1-3) → resource services |
 | Robotics / embodied intelligence engineers & researchers | Embodied Intelligence Guide: perception → learning & control → VLA foundation models |
 | Technical managers | Cloud FinOps (ch. 17), AI Infra Performance & Cost (ch. 16), Embodied AI industry & commercialization (ch. 18) |
 
@@ -111,5 +120,5 @@ Welcome to submit corrections and improvement suggestions via [Issues](https://g
 | --- | --- |
 | Author | hezhiyong |
 | Email | [aizyhe@126.com](mailto:aizyhe@126.com) |
-| Version | v1.0.0 |
+| Version | v1.0.1 |
 | Date | 2026-06-25 |
